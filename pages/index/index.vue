@@ -1,5 +1,7 @@
 <template>
 	<view class="content">
+		<div class="notice">uni-app 是一个使用 Vue.js 开发所有前端应用的框架,开发者编写一套代码,</div>
+		<div class="mb10"></div>
 		<uni-grid :column="3" borderColor="#f1f1f7">
 			<uni-grid-item>
 				<img src="/static/images/icon-car.png" />
@@ -58,6 +60,21 @@
 </script>
 
 <style lang="scss" scoped>
+	.notice {
+		height: 35px;
+		padding: 0 10px 0 40px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 15px;
+		color: #666;
+		line-height: 35px;
+		background-color:#fefdee;
+		background-image: url('../../static/images/icon-horn.png');
+		background-repeat: no-repeat;
+		background-position: 10px center;
+		background-size: 20px auto;
+	}
 	.uni-grid-item {
 		display: flex;
 		background-color: #fff;
@@ -67,7 +84,7 @@
 		img {
 			width: 30px;
 			display: block;
-			margin:30px auto 10px;
+			margin:30% auto 10px;
 		}
 		text {
 			font-size: 16px;
