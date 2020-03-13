@@ -4,14 +4,22 @@
 		<div class="mb10"></div>
 		<ul class="home-grid">
 			<li>
+				<navigator url="/pages/depart/depart">
+					<img src="/static/images/icon-car.png" mode="widthFix"/>
+					<span class="text">发车单</span>
+				</navigator>
+			</li>
+			<li>
 				<navigator url="/pages/report/report">
-					<image src="/static/images/icon-car.png" mode="widthFix"/>
+					<img src="/static/images/icon-car.png" mode="widthFix"/>
 					<span class="text">出车报名</span>
 				</navigator>
 			</li>
 			<li>
-				<image src="/static/images/icon-sign.png" mode="widthFix"/>
-				<span class="text">今日签到</span>
+				<navigator url="/pages/sign/sign">
+					<img src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">今日签到</span>
+				</navigator>
 			</li>
 			<li>
 				<navigator url="/pages/nuclearCargo/nuclearCargo">

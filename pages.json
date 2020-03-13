@@ -17,6 +17,18 @@
 			}
 		},
 		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "今日签到"
+			}
+		},
+		{
+			"path": "pages/depart/depart",
+			"style": {
+				"navigationBarTitleText": "发车单"
+			}
+		},
+		{
 			"path": "pages/my/my",
 			"style": {
 				"navigationBarTitleText": "个人中心"
