@@ -26,14 +26,37 @@
 			</div>
 		</div>
 		<div class="center-info">
-			<div class="score-set"><span class="score">当前积分: 287</span><span class="score-rule">积分规则</span></div>
+			<div class="score-set">
+				<span class="score">当前积分: 287</span>
+				<span class="score-rule"><image class="icon-sup" src="/static/images/icon-sup.png">积分规则</span>
+			</div>
 			<div class="center-income">
 				<span>昨日收入系数: 暂无</span>
 				<span>今日积分变化: 0</span>
 			</div>
 			<div class="score-distance">
-				<i>4</i>星保级需要<i>1271</i>积分，距离<i>5</i>星还需要<i>2452</i>积分
+				<text class="fc-orange">4</text>星保级需要<text class="fc-orange">1271</text>积分，距离<text class="fc-orange">5</text>星还需要<text class="fc-orange">2452</text>积分
 			</div>
+		</div>
+		<div class="center-tab">
+			<ul>
+				<li>
+					<image src="/static/images/icon-pj.png"/>
+					<text class="cen-tab-text">仓服务评价</text>
+				</li>
+				<li>
+					<image src="/static/images/icon-apply.png"/>
+					<text class="cen-tab-text">人车信息</text>
+				</li>
+				<li>
+					<image src="/static/images/icon-ht.png"/>
+					<text class="cen-tab-text">我的合同</text>
+				</li>
+				<li>
+					<image src="/static/images/icon-zx.png"/>
+					<text class="cen-tab-text">投诉处理</text>
+				</li>
+			</ul>
 		</div>
 	</div>
 </template>
@@ -122,7 +145,7 @@
 	}
 	.center-info {
 		width: 94%;
-		margin:0 3%;
+		margin:0 3% 10px;
 		background-color: #fff;
 		border-radius: 5px;
 		padding: 10px;
@@ -135,11 +158,14 @@
 				margin-right: 10px;
 			}
 			.score-rule {
-				padding-left: 20px;
 				font-size: 14px;
-				background:url('/static/images/icon-sup.png') no-repeat 0 center;
-				background-size: 18px 18px;
 				color: #777;
+				image {
+					width: 18px;
+					height: 18px;
+					margin-left: 2px;
+					vertical-align: middle;
+				}
 			}
 		}
 		.center-income {
@@ -155,10 +181,33 @@
 			font-size: 15px;
 			color: #555;
 			line-height: 18px;
-			i {
-				font-style: normal;
+			.fc-orange {
 				color: #e9a114;
 				padding: 1px;
+			}
+		}
+	}
+	.center-tab {
+		width: 94%;
+		margin:20px 3%;
+		background-color: #fff;
+		padding: 10px;
+		border-radius: 5px;
+		ul {
+			overflow: hidden;
+			li {
+				float: left;
+				width: 25%;
+				color: #555;
+				font-size: 14px;
+				text-align: center;
+				padding: 20px 0;
+				image {
+					display: block;
+					width: 35px;
+					height: 35px;
+					margin:0 auto 10px;
+				}
 			}
 		}
 	}
