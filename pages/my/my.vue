@@ -25,6 +25,16 @@
 				
 			</div>
 		</div>
+		<div class="center-info">
+			<div class="score-set"><span class="score">当前积分: 287</span><span class="score-rule">积分规则</span></div>
+			<div class="center-income">
+				<span>昨日收入系数: 暂无</span>
+				<span>今日积分变化: 0</span>
+			</div>
+			<div class="score-distance">
+				<i>4</i>星保级需要<i>1271</i>积分，距离<i>5</i>星还需要<i>2452</i>积分
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -45,6 +55,7 @@
 		position: relative;
 		background-color: #4a9ff8;
 		height: 115px;
+		margin-bottom: 120px;
 		.center-nav-body {
 			position: absolute;
 			left: 3%;
@@ -106,6 +117,48 @@
 						}
 					}
 				}
+			}
+		}
+	}
+	.center-info {
+		width: 94%;
+		margin:0 3%;
+		background-color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+		.score-set {
+			margin-bottom: 10px;
+			color: #555;
+			.score {
+				display: inline-block;
+				font-size: 15px;
+				margin-right: 10px;
+			}
+			.score-rule {
+				padding-left: 20px;
+				font-size: 14px;
+				background:url('/static/images/icon-sup.png') no-repeat 0 center;
+				background-size: 18px 18px;
+				color: #777;
+			}
+		}
+		.center-income {
+			margin-bottom: 10px;
+			color: #555;
+			display: flex;
+			font-size: 15px;
+			span {
+				width: 50%;
+			}
+		}
+		.score-distance {
+			font-size: 15px;
+			color: #555;
+			line-height: 18px;
+			i {
+				font-style: normal;
+				color: #e9a114;
+				padding: 1px;
 			}
 		}
 	}
