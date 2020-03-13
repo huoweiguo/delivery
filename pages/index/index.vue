@@ -4,8 +4,10 @@
 		<div class="mb10"></div>
 		<ul class="home-grid">
 			<li>
-				<image src="/static/images/icon-car.png" mode="widthFix"/>
-				<span class="text">出车报名</span>
+				<navigator url="/pages/report/report">
+					<image src="/static/images/icon-car.png" mode="widthFix"/>
+					<span class="text">出车报名</span>
+				</navigator>
 			</li>
 			<li>
 				<image src="/static/images/icon-sign.png" mode="widthFix"/>

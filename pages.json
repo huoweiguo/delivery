@@ -28,7 +28,13 @@
 				"navigationBarTitleText": "任务"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/report/report",
+            "style" : {
+				"navigationBarTitleText": "出车报名"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "#fff",
 		"navigationBarTitleText": "司机配送",
