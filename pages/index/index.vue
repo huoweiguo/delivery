@@ -4,12 +4,16 @@
 		<div class="mb10"></div>
 		<ul class="home-grid">
 			<li>
-				<img src="/static/images/icon-car.png" mode="widthFix"/>
-				<span class="text">出车报名</span>
+				<navigator url="/pages/depart/depart">
+					<img src="/static/images/icon-car.png" mode="widthFix"/>
+					<span class="text">出车报名</span>
+				</navigator>
 			</li>
 			<li>
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
-				<span class="text">今日签到</span>
+				<navigator url="/pages/sign/sign">
+					<img src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">今日签到</span>
+				</navigator>
 			</li>
 			<li>
 				<img src="/static/images/icon-goods.png" mode="widthFix"/>
