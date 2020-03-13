@@ -39,7 +39,31 @@
 			"style": {
 				"navigationBarTitleText": "任务"
 			}
-		}       
+		},
+		{
+            "path" : "pages/report/report",
+            "style" : {
+				"navigationBarTitleText": "出车报名"
+			}
+        },
+		{
+            "path" : "pages/nuclearCargo/nuclearCargo",
+            "style" : {
+				"navigationBarTitleText": "核货中心"
+			}
+        },
+		{
+            "path" : "pages/nuclearCargo/cargo",
+            "style" : {
+				"navigationBarTitleText": "核货"
+			}
+        },
+		{
+            "path" : "pages/pickup/pickup",
+            "style" : {
+				"navigationBarTitleText": "上门取件"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "#fff",
