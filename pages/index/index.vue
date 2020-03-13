@@ -14,8 +14,10 @@
 				<span class="text">今日签到</span>
 			</li>
 			<li>
-				<image src="/static/images/icon-goods.png" mode="widthFix"/>
-				<span class="text">核货中心</span>
+				<navigator url="/pages/nuclearCargo/nuclearCargo">
+					<image src="/static/images/icon-goods.png" mode="widthFix"/>
+					<span class="text">核货中心</span>
+				</navigator>
 			</li>
 			<li>
 				<image src="/static/images/icon-deliver.png" mode="widthFix"/>
@@ -36,6 +38,12 @@
 			<li>
 				<image src="/static/images/icon-approval.png" mode="widthFix"/>
 				<span class="text">我的审批</span>
+			</li>
+			<li>
+				<navigator url="/pages/pickup/pickup">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">上门取件</span>
+				</navigator>
 			</li>
 		</ul>
 	</view>
