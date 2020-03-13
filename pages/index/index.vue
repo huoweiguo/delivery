@@ -4,35 +4,35 @@
 		<div class="mb10"></div>
 		<ul class="home-grid">
 			<li>
-				<img src="/static/images/icon-car.png" />
+				<img src="/static/images/icon-car.png" mode="widthFix"/>
 				<span class="text">出车报名</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-sign.png" />
+				<img src="/static/images/icon-sign.png" mode="widthFix"/>
 				<span class="text">今日签到</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-goods.png" />
+				<img src="/static/images/icon-goods.png" mode="widthFix"/>
 				<span class="text">核货中心</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-deliver.png" />
+				<img src="/static/images/icon-deliver.png" mode="widthFix"/>
 				<span class="text">配送任务</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-door.png" />
+				<img src="/static/images/icon-door.png" mode="widthFix"/>
 				<span class="text">上门取件</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-cash.png" />
+				<img src="/static/images/icon-cash.png" mode="widthFix"/>
 				<span class="text">财务交款</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-handover.png" />
+				<img src="/static/images/icon-handover.png" mode="widthFix"/>
 				<span class="text">包裹交接</span>
 			</li>
 			<li>
-				<img src="/static/images/icon-approval.png" />
+				<img src="/static/images/icon-approval.png" mode="widthFix"/>
 				<span class="text">我的审批</span>
 			</li>
 		</ul>
