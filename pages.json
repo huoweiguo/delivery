@@ -61,7 +61,17 @@
 		{
             "path" : "pages/pickup/pickup",
             "style" : {
-				"navigationBarTitleText": "上门取件"
+				"navigationBarTitleText": "上门取件",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text":"更多",
+								"fontSize":"16px"
+							}
+						]
+					}
+				}
 			}
         }
     ],
