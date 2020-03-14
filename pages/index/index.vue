@@ -32,8 +32,10 @@
 				<span class="text">配送任务</span>
 			</li>
 			<li>
-				<image src="/static/images/icon-door.png" mode="widthFix"/>
-				<span class="text">上门取件</span>
+				<navigator url="/pages/pickup/pickup">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">上门取件</span>
+				</navigator>
 			</li>
 			<li>
 				<image src="/static/images/icon-cash.png" mode="widthFix"/>
@@ -46,12 +48,6 @@
 			<li>
 				<image src="/static/images/icon-approval.png" mode="widthFix"/>
 				<span class="text">我的审批</span>
-			</li>
-			<li>
-				<navigator url="/pages/pickup/pickup">
-					<image src="/static/images/icon-sign.png" mode="widthFix"/>
-					<span class="text">上门取件</span>
-				</navigator>
 			</li>
 			<li>
 				<navigator url="/pages/signRecord/signRecord">

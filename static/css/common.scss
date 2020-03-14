@@ -54,3 +54,27 @@ body {
 .mr10 {
 	margin-right: 10px;
 }
+.tag-fixed {
+	position: absolute;
+	left: 0;
+	top: 0;
+	text {
+		position: relative;
+		z-index: 1;
+		display: block;
+		font-size: 16px;
+		color: #fff;
+		top: 10px;
+		left: 5px;
+	}
+}
+.tag-fixed:after {
+	position: absolute;
+	left: -50px;
+	top: 0;
+	content: '';
+	border-width: 50px;
+	border-style: solid dashed dashed dashed;
+	border-color: #e87b5b transparent transparent transparent;
+	z-index: 0
+}
