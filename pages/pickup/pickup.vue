@@ -13,10 +13,10 @@
 								<image src="/static/images/icon-name.png" class="icon-set" mode="widthFix"/>
 								<text>15058411#浩海一味饭店 15058411#浩海一味饭店 15058411#浩海一味饭店</text>
 							</div>
-							<text>
+							<div>
 								<image src="/static/images/icon-tk.png" class="icon-set" mode="widthFix"/>
 								微信
-							</text>
+							</div>
 						</div>
 						<div class="pckText2">
 							<div class="pck-content">
@@ -25,17 +25,17 @@
 							</div>
 						</div>
 						<div class="pckText2">
-							<text>
+							<div class="pck-inner">
 								<image src="/static/images/icon-wuzi.png" class="icon-set" mode="widthFix"/>
 								取件物资数: 0 &nbsp;&nbsp;&nbsp;&nbsp; 取件货品数: 1
-							</text>
+							</div>
 						</div>
 					</li>
 				</ul>
 			</s-tab>
 			<s-tab :title="nav2">
 				<div class="nav-smallText">20200216 晨鲜送 2波次</div>
-				<ul class="pickup-list">
+				<ul class="pickup-list pickup-complete">
 					<li>
 						<div class="tag-fixed"><text>取</text></div>
 						<div class="pckText1">任务单号：RD128262783932</div>
@@ -45,10 +45,10 @@
 								<image src="/static/images/icon-name.png" class="icon-set" mode="widthFix"/>
 								<text>15058411#浩海一味饭店 15058411#浩海一味饭店 15058411#浩海一味饭店</text>
 							</div>
-							<text>
+							<div>
 								<image src="/static/images/icon-tk.png" class="icon-set" mode="widthFix"/>
 								微信
-							</text>
+							</div>
 						</div>
 						<div class="pckText2">
 							<div class="pck-content">
@@ -57,15 +57,15 @@
 							</div>
 						</div>
 						<div class="pckText2">
-							<text>
+							<div class="pck-inner">
 								<image src="/static/images/icon-wuzi.png" class="icon-set" mode="widthFix"/>
 								取件物资数: 0 &nbsp;&nbsp;&nbsp;&nbsp; 取件货品数: 1
-							</text>
+							</div>
 						</div>
 					</li>
 				</ul>
 				<div class="nav-smallText">20200216 晨鲜送 2波次</div>
-				<ul class="pickup-list">
+				<ul class="pickup-list pickup-complete">
 					<li>
 						<div class="tag-fixed"><text>取</text></div>
 						<div class="pckText1">任务单号：RD128262783932</div>
@@ -75,10 +75,10 @@
 								<image src="/static/images/icon-name.png" class="icon-set" mode="widthFix"/>
 								<text>15058411#浩海一味饭店 15058411#浩海一味饭店 15058411#浩海一味饭店</text>
 							</div>
-							<text>
+							<div>
 								<image src="/static/images/icon-tk.png" class="icon-set" mode="widthFix"/>
 								微信
-							</text>
+							</div>
 						</div>
 						<div class="pckText2">
 							<div class="pck-content">
@@ -87,10 +87,10 @@
 							</div>
 						</div>
 						<div class="pckText2">
-							<text>
+							<div class="pck-inner">
 								<image src="/static/images/icon-wuzi.png" class="icon-set" mode="widthFix"/>
 								取件物资数: 0 &nbsp;&nbsp;&nbsp;&nbsp; 取件货品数: 1
-							</text>
+							</div>
 						</div>
 					</li>
 				</ul>
@@ -166,6 +166,7 @@
 				}
 				.icon-set {
 					width: 18px;
+					height: 18px;
 					vertical-align: sub;
 					margin-right: 10px;
 				}
@@ -181,6 +182,14 @@
 					overflow: hidden;
 				}
 			}
+		}
+	}
+	.pickup-complete {
+		li {
+			background-image:url('/static/images/icon-complete.png');
+			background-position: calc(100% - 10%) calc(100% - 10%);
+			background-repeat: no-repeat;
+			background-size: 120px;
 		}
 	}
 </style>
