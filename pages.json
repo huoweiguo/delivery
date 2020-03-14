@@ -23,6 +23,18 @@
 			}
 		},
 		{
+			"path": "pages/signRecord/signRecord",
+			"style": {
+				"navigationBarTitleText": "签到记录"
+			}
+		},
+		{
+			"path": "pages/inc/inc",
+			"style": {
+				"navigationBarTitleText": "我的收入"
+			}
+		},
+		{
 			"path": "pages/depart/depart",
 			"style": {
 				"navigationBarTitleText": "发车单"

@@ -18,7 +18,7 @@
 					</li>
 					<li>
 						<img src="/static/images/icon-sign.png" mode="widthFix"/>
-						<span>送达时间：<i>写试卷戏剧性减哈V型就行AV回家</i></span>
+						<span>送达时间：</span><p class="depat-site">写试卷戏剧性减哈V型就行AV回家是菜市场上次</p>
 					</li>
 					<li>
 						<img src="/static/images/icon-sign.png" mode="widthFix"/>
@@ -63,12 +63,16 @@
 					&>img{
 						width: 11px;
 						height: 12px;
+						vertical-align: top;
+						margin-top: 3px;
 					}
 					&>span{
 						line-height: 20px;
 						margin-left: 7px;
 						font-size: 14px;
-						color: #adadad;
+						color: #adadad;						
+						width: 30%;
+						vertical-align: top;
 						&>i{
 							display: inline-block;
 							color: #666666;
@@ -77,6 +81,14 @@
 							display: inline-block;
 							color: #55aff8;
 						}
+					}
+					.depat-site{
+						vertical-align: top;
+						display: inline-block;
+						width: 70%;
+						font-size: 14px;
+						color: #666666;
+						line-height: 20px;
 					}
 				}
 			}

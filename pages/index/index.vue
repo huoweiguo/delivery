@@ -53,6 +53,18 @@
 					<span class="text">上门取件</span>
 				</navigator>
 			</li>
+			<li>
+				<navigator url="/pages/signRecord/signRecord">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">签到记录</span>
+				</navigator>
+			</li>
+			<li>
+				<navigator url="/pages/inc/inc">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">我的收入</span>
+				</navigator>
+			</li>
 		</ul>
 	</view>
 </template>
