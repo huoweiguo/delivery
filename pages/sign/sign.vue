@@ -66,12 +66,11 @@
 					}
 			}
 			.sion-order{
-				width: 382px;
-				height: 188px;
+				width: 94%;
 				background-color: #fff;
 				border: 2px solid #e3e3e3;
 				position: relative;
-				padding: 0 0 0 17px;
+				padding: 0 0 14px 17px;
 				.trilateral{
 					width: 0px;
 					height:0px;
