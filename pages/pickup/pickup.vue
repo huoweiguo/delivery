@@ -3,7 +3,7 @@
 		<s-tabs :effect="true" v-model="activeTab" customClass="tabs-header" @change="change" lineColor="#4aa0f7" activeColor="#4aa0f7" :nav-per-view="2">
 			<s-tab :title="nav1">
 				<div class="nav-smallText">20200216 晨鲜送 2波次</div>
-				<ul class="pickup-list">
+				<ul class="pickup-list" @click="showDetail">
 					<li>
 						<div class="tag-fixed"><text>取</text></div>
 						<div class="pckText1">任务单号：RD128262783932</div>
@@ -96,32 +96,46 @@
 				</ul>
 			</s-tab>
 		</s-tabs>
+		<poplayer :visible="visible">
+			<view>巴嘎</view>
+		</poplayer>
 	</view>
 </template>
 
 <script>
 	import sTabs from '@/components/s-tabs/index.vue'
 	import sTab from '@/components/s-tab/index.vue'
+	import poplayer from '@/components/poplayer/index.vue'
 	export default {
 		components: {
-			sTabs, sTab
+			sTabs, sTab, poplayer
 		},
 		data() {
 			return {
 				activeTab: 0,
 				nav1: '取件中(1)',
-				nav2: '已完成(2)'
+				nav2: '已完成(2)',
+				visible: false
 			}
 		},
 		methods: {
 			change (index) {
 				console.log(index)
+			},
+			showDetail () {
+				this.visible = true
+			},
+			hideDetail () {
+				this.visible = false
 			}
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
+	uni-page-body,.pages-content {
+		height: 100%;
+	}
 	.nav-smallText {
 		font-size: 13px;
 		color: #666;
@@ -186,10 +200,14 @@
 	}
 	.pickup-complete {
 		li {
-			background-image:url('/static/images/icon-complete.png');
+			//background-image:url('/static/images/icon-complete.png');
 			background-position: calc(100% - 10%) calc(100% - 10%);
 			background-repeat: no-repeat;
 			background-size: 120px;
 		}
+	}
+	.pickup-detail {
+		width: 100%;
+		height: 700px;
 	}
 </style>
