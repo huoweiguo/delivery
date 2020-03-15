@@ -85,6 +85,11 @@
 					}
 				}
 			}
+        },{
+            "path" : "pages/finance/finance",
+            "style" : {
+				"navigationBarTitleText": "财务配送"
+			}
         }
     ],
 	"globalStyle": {

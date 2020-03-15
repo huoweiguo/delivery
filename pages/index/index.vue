@@ -38,8 +38,10 @@
 				</navigator>
 			</li>
 			<li>
-				<image src="/static/images/icon-cash.png" mode="widthFix"/>
-				<span class="text">财务交款</span>
+				<navigator url="/pages/finance/finance">
+					<image src="/static/images/icon-cash.png" mode="widthFix"/>
+					<span class="text">财务交款</span>
+				</navigator>
 			</li>
 			<li>
 				<image src="/static/images/icon-handover.png" mode="widthFix"/>
@@ -84,7 +86,8 @@
 			}
 		},
 		mounted() {
-			this.timer = window.setInterval(_ => {
+			console.log('timers')
+			this.timer = setInterval(_ => {
 				this.times--
 				if (this.times <= 0) {
 					this.overTimes = true
