@@ -62,19 +62,40 @@
 				</navigator>
 			</li>
 		</ul>
+		<div class="home-mask" v-if="showAdv">
+			<div class="adv-content">
+				<text class="adv-title">防疫四件事</text>
+				<text class="adv-time">2020-02-02 18:30:00</text>
+				<image class="adv-img" mode="widthFix" src="https://static.fotor.com.cn/assets/projects/pages/13f14d30-58d9-11ea-8adb-83c1c86fe9a5_298ac2b4-2a7d-4137-b6d0-93597cac7283_thumb.jpg">
+				<button class="adv-btn" v-if="!overTimes">知道了({{times}})</button>
+				<button class="adv-btn activeBtn" v-if="overTimes" @click="closeAdv">知道了</button>
+			</div>
+		</div>
 	</view>
 </template>
 
 <script>
 	export default {
 		data() {
-			return {}
+			return {
+				times: 5,
+				showAdv: true,
+				overTimes: false
+			}
 		},
-		onLoad() {
-
+		mounted() {
+			this.timer = window.setInterval(_ => {
+				this.times--
+				if (this.times <= 0) {
+					this.overTimes = true
+					clearInterval(this.timer)
+				}
+			}, 1000)
 		},
 		methods: {
-
+			closeAdv () {
+				this.showAdv = false
+			}
 		}
 	}
 </script>
@@ -108,6 +129,7 @@
 			border-bottom: 1px solid #f1f1f1;
 			image {
 				width: 30px;
+				height: 30px;
 				display: block;
 				margin:0 auto 10px;
 			}
@@ -115,6 +137,52 @@
 				display: block;
 				font-size: 16px;
 				color: #777;
+			}
+		}
+	}
+	.home-mask {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.75);
+		z-index: 10;
+		.adv-content {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			padding: 20px 5%;
+			width: 90%;
+			transform: translate(-50%, -50%);
+			border-radius: 5px;
+			background-color: #fff;
+			text-align: center;
+			.adv-title {
+				display: block;
+				font-size: 16px;
+				color: #333;
+				margin-bottom: 10px;
+			}
+			.adv-time {
+				display: block;
+				font-size: 13px;
+				color: #777;
+			}
+			.adv-img {
+				width: 100%;
+				display: block;
+				margin: 10px 0;
+			}
+			.adv-btn {
+				width: 100px;
+				height: 35px;
+				font-size: 14px;
+				color: #999;
+			}
+			.activeBtn {
+				background-color: #4a9ff8;
+				color: #fff;
 			}
 		}
 	}

@@ -18,8 +18,9 @@
 		width: 100%;
 		height: 100%;
 		transition: 0.3s;
-		background-color: #fff;
+		background-color: #f1f1f1;
 		z-index: 1000;
+		overflow-y: scroll;
 	}
 	.moveAct {
 		left: 0
