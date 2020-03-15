@@ -38,8 +38,8 @@
 				<ul class="pickup-list pickup-complete">
 					<li>
 						<div class="tag-fixed"><text>取</text></div>
-						<div class="pckText1">任务单号：RD128262783932</div>
-						<div class="pckText1">取件号：Q12783932</div>
+						<div class="pckText1">任务单号: RD128262783932</div>
+						<div class="pckText1">取件号: Q12783932</div>
 						<div class="pckText2">
 							<div class="pck-names">
 								<image src="/static/images/icon-name.png" class="icon-set" mode="widthFix"/>

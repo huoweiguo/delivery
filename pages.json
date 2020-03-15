@@ -88,7 +88,7 @@
         },{
             "path" : "pages/finance/finance",
             "style" : {
-				"navigationBarTitleText": "财务配送"
+				"navigationBarTitleText": "财务交款"
 			}
         }
     ],
