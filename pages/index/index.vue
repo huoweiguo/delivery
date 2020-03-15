@@ -63,6 +63,18 @@
 					<span class="text">我的收入</span>
 				</navigator>
 			</li>
+			<li>
+				<navigator url="/pages/return/return">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">退货列表</span>
+				</navigator>
+			</li>
+			<li>
+				<navigator url="/pages/returnList/returnList">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">退货列表(2)</span>
+				</navigator>
+			</li>
 		</ul>
 		<div class="home-mask" v-if="showAdv">
 			<div class="adv-content">

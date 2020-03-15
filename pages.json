@@ -35,6 +35,18 @@
 			}
 		},
 		{
+			"path": "pages/return/return",
+			"style": {
+				"navigationBarTitleText": "退货列表"
+			}
+		},
+		{
+			"path": "pages/returnList/returnList",
+			"style": {
+				"navigationBarTitleText": "退货列表(2)"
+			}
+		},
+		{
 			"path": "pages/depart/depart",
 			"style": {
 				"navigationBarTitleText": "发车单"
