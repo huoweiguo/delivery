@@ -109,6 +109,12 @@
             "style" : {
 				"navigationBarTitleText": "投诉处理"
 			}
+        },
+		{
+            "path" : "pages/putCar/putCar",
+            "style" : {
+				"navigationBarTitleText": "撞撞撞撞"
+			}
         }
     ],
 	"globalStyle": {
