@@ -97,10 +97,17 @@
 					}
 				}
 			}
-        },{
+        },
+		{
             "path" : "pages/finance/finance",
             "style" : {
 				"navigationBarTitleText": "财务交款"
+			}
+        },
+		{
+            "path" : "pages/complaint/complaint",
+            "style" : {
+				"navigationBarTitleText": "投诉处理"
 			}
         }
     ],

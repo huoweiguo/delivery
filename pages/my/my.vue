@@ -53,8 +53,10 @@
 					<text class="cen-tab-text">我的合同</text>
 				</li>
 				<li>
-					<image src="/static/images/icon-zx.png"/>
-					<text class="cen-tab-text">投诉处理</text>
+					<navigator url="/pages/complaint/complaint">
+						<image src="/static/images/icon-zx.png"/>
+						<text class="cen-tab-text">投诉处理</text>
+					</navigator>
 				</li>
 			</ul>
 		</div>
