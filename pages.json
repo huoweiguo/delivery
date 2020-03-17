@@ -122,6 +122,12 @@
                 "navigationBarTitleText":"商户详情"
             }
         },
+		{
+			"path" : "pages/putCar/putCar",
+			"style" : {
+				"navigationBarTitleText": "装车列表"
+			}
+		},
         {
             "path":"pages/commission/commission",
             "style":{
