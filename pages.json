@@ -1,187 +1,193 @@
 {
-	"pages": [
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "司机配送",
-				"app-plus": {
-					"titleNView": {
-						"buttons": [
-							{
-								"text":"消息",
-								"fontSize":"16px"
-							}
-						]
-					}
-				}
-			}
-		},
-		{
-			"path": "pages/sign/sign",
-			"style": {
-				"navigationBarTitleText": "今日签到"
-			}
-		},
-		{
-			"path": "pages/signRecord/signRecord",
-			"style": {
-				"navigationBarTitleText": "签到记录"
-			}
-		},
-		{
-			"path": "pages/inc/inc",
-			"style": {
-				"navigationBarTitleText": "我的收入"
-			}
-		},
-		{
-			"path": "pages/return/return",
-			"style": {
-				"navigationBarTitleText": "退货列表"
-			}
-		},
-		{
-			"path": "pages/returnList/returnList",
-			"style": {
-				"navigationBarTitleText": "退货列表(2)"
-			}
-		},
-		{
-			"path": "pages/depart/depart",
-			"style": {
-				"navigationBarTitleText": "发车单"
-			}
-		},
-		{
-			"path": "pages/my/my",
-			"style": {
-				"navigationBarTitleText": "个人中心"
-			}
-		},
-		{
-			"path": "pages/task/task",
-			"style": {
-				"navigationBarTitleText": "任务"
-			}
-		},
-		{
-            "path" : "pages/report/report",
-            "style" : {
-				"navigationBarTitleText": "出车报名"
-			}
+    "pages":[
+        {
+            "path":"pages/index/index",
+            "style":{
+                "navigationBarTitleText":"司机配送",
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                                "text":"消息",
+                                "fontSize":"16px"
+                            }
+                        ]
+                    }
+                }
+            }
         },
-		{
-            "path" : "pages/nuclearCargo/nuclearCargo",
-            "style" : {
-				"navigationBarTitleText": "核货中心"
-			}
+        {
+            "path":"pages/sign/sign",
+            "style":{
+                "navigationBarTitleText":"今日签到"
+            }
         },
-		{
-            "path" : "pages/nuclearCargo/cargo",
-            "style" : {
-				"navigationBarTitleText": "核货"
-			}
+        {
+            "path":"pages/signRecord/signRecord",
+            "style":{
+                "navigationBarTitleText":"签到记录"
+            }
         },
-		{
-            "path" : "pages/pickup/pickup",
-            "style" : {
-				"navigationBarTitleText": "上门取件",
-				"app-plus": {
-					"titleNView": {
-						"buttons": [
-							{
-								"text":"更多",
-								"fontSize":"16px"
-							}
-						]
-					}
-				}
-			}
+        {
+            "path":"pages/inc/inc",
+            "style":{
+                "navigationBarTitleText":"我的收入"
+            }
         },
-		{
-            "path" : "pages/finance/finance",
-            "style" : {
-				"navigationBarTitleText": "财务交款"
-			}
+        {
+            "path":"pages/return/return",
+            "style":{
+                "navigationBarTitleText":"退货列表"
+            }
         },
-		{
-            "path" : "pages/complaint/complaint",
-            "style" : {
-				"navigationBarTitleText": "投诉处理"
-			}
+        {
+            "path":"pages/returnList/returnList",
+            "style":{
+                "navigationBarTitleText":"退货列表(2)"
+            }
         },
-		{
-            "path" : "pages/merchant/merchant",
-            "style" : {
-				"navigationBarTitleText": "商户列表"
-			}
+        {
+            "path":"pages/depart/depart",
+            "style":{
+                "navigationBarTitleText":"发车单"
+            }
         },
-		{
-            "path" : "pages/merchantDetail/merchantDetail",
-            "style" : {
-				"navigationBarTitleText": "商户详情"
-			}
+        {
+            "path":"pages/my/my",
+            "style":{
+                "navigationBarTitleText":"个人中心"
+            }
         },
-		{
-            "path" : "pages/commission/commission",
-            "style" : {
-				"navigationBarTitleText": "销配佣金",
-				"app-plus": {
-					"titleNView": {
-						"buttons": [
-							{
-								"text":"佣金类型",
-								"fontSize":"16px"
-							}
-						]
-					}
-				}
-			}
+        {
+            "path":"pages/task/task",
+            "style":{
+                "navigationBarTitleText":"任务"
+            }
         },
-		{
-            "path" : "pages/myIncome/myIncome",
-            "style" : {
-				"navigationBarTitleText": "我的收入"
-			}
+        {
+            "path":"pages/report/report",
+            "style":{
+                "navigationBarTitleText":"出车报名"
+            }
         },
-		{
-            "path" : "pages/scoreDet/scoreDet",
-            "style" : {
-				"navigationBarTitleText": "积分明细"
-			}
+        {
+            "path":"pages/nuclearCargo/nuclearCargo",
+            "style":{
+                "navigationBarTitleText":"核货中心"
+            }
+        },
+        {
+            "path":"pages/nuclearCargo/cargo",
+            "style":{
+                "navigationBarTitleText":"核货"
+            }
+        },
+        {
+            "path":"pages/pickup/pickup",
+            "style":{
+                "navigationBarTitleText":"上门取件",
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                                "text":"更多",
+                                "fontSize":"16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/finance/finance",
+            "style":{
+                "navigationBarTitleText":"财务交款"
+            }
+        },
+        {
+            "path":"pages/complaint/complaint",
+            "style":{
+                "navigationBarTitleText":"投诉处理"
+            }
+        },
+        {
+            "path":"pages/merchant/merchant",
+            "style":{
+                "navigationBarTitleText":"商户列表"
+            }
+        },
+        {
+            "path":"pages/merchantDetail/merchantDetail",
+            "style":{
+                "navigationBarTitleText":"商户详情"
+            }
+        },
+        {
+            "path":"pages/commission/commission",
+            "style":{
+                "navigationBarTitleText":"销配佣金",
+                "app-plus":{
+                    "titleNView":{
+                        "buttons":[
+                            {
+                                "text":"佣金类型",
+                                "fontSize":"16px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path":"pages/myIncome/myIncome",
+            "style":{
+                "navigationBarTitleText":"我的收入"
+            }
+        },
+        {
+            "path":"pages/scoreDet/scoreDet",
+            "style":{
+                "navigationBarTitleText":"积分明细"
+            }
+        },
+        {
+            "path":"pages/more/more",
+            "style":{
+                "navigationBarTitleText":"更多功能"
+            }
         }
     ],
-	"globalStyle": {
-		"navigationBarTextStyle": "#fff",
-		"navigationBarTitleText": "司机配送",
-		"navigationBarBackgroundColor": "#4a9ff8",
-		"backgroundColor": "#4a9ff8"
-	},
-	"tabBar": {
-		"color": "#666",
-		"selectedColor": "#4a9ff8",
-		"backgroundColor": "#f7f7f7",
-		"borderStyle": "white",
-		"margin-top":"2px",
-		"list": [
-		  {
-			"pagePath": "pages/index/index",
-			"iconPath": "static/images/icon-homeed.png",
-			"selectedIconPath": "static/images/icon-home.png",
-			"text": "首页"
-		  },
-		  {
-			"pagePath": "pages/task/task",
-			"iconPath": "static/images/icon-tasked.png",
-			"selectedIconPath": "static/images/icon-task.png",
-			"text": "任务"
-		  },
-		  {
-			"pagePath": "pages/my/my",
-			"iconPath": "static/images/icon-myed.png",
-			"selectedIconPath": "static/images/icon-my.png",
-			"text": "我的"
-		  }
-		]
-	}
+    "globalStyle":{
+        "navigationBarTextStyle":"#fff",
+        "navigationBarTitleText":"司机配送",
+        "navigationBarBackgroundColor":"#4a9ff8",
+        "backgroundColor":"#4a9ff8"
+    },
+    "tabBar":{
+        "color":"#666",
+        "selectedColor":"#4a9ff8",
+        "backgroundColor":"#f7f7f7",
+        "borderStyle":"white",
+        "margin-top":"2px",
+        "list":[
+            {
+                "pagePath":"pages/index/index",
+                "iconPath":"static/images/icon-homeed.png",
+                "selectedIconPath":"static/images/icon-home.png",
+                "text":"首页"
+            },
+            {
+                "pagePath":"pages/task/task",
+                "iconPath":"static/images/icon-tasked.png",
+                "selectedIconPath":"static/images/icon-task.png",
+                "text":"任务"
+            },
+            {
+                "pagePath":"pages/my/my",
+                "iconPath":"static/images/icon-myed.png",
+                "selectedIconPath":"static/images/icon-my.png",
+                "text":"我的"
+            }
+        ]
+    }
 }

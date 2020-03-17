@@ -2,13 +2,15 @@
 	<view  class="content">
 		<ul class="return-list">
 			<li>
-				<div class="return-time">
-					<span>20200216</span><span>晨新鲜</span><span>一波</span>			
-				</div>
-				<div class="return-order">
-					    <div class="trilateral"><i>直</i></span></div>
+				<navigator url="/pages/returnList/returnList">
+					<div class="return-time">
+						<span>20200216</span><span>晨新鲜</span><span>一波</span>			
+					</div>
+					<div class="return-order">
+						<div class="trilateral"><i>直</i></span></div>
 						<span>六安市</span>任务单号：155151515
-				</div>
+					</div>
+				</navigator>
 			</li>
 		</ul>
 	</view>

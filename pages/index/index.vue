@@ -4,12 +4,6 @@
 		<div class="mb10"></div>
 		<ul class="home-grid">
 			<li>
-				<navigator url="/pages/depart/depart">
-					<image src="/static/images/icon-car.png" mode="widthFix"/>
-					<span class="text">发车单</span>
-				</navigator>
-			</li>
-			<li>
 				<navigator url="/pages/report/report">
 					<image src="/static/images/icon-car.png" mode="widthFix"/>
 					<span class="text">出车报名</span>
@@ -70,9 +64,9 @@
 				</navigator>
 			</li>
 			<li>
-				<navigator url="/pages/returnList/returnList">
-					<image src="/static/images/icon-sign.png" mode="widthFix"/>
-					<span class="text">退货列表(2)</span>
+				<navigator url="/pages/more/more">
+					<image src="/static/images/more.png" mode="widthFix"/>
+					<span class="text">更多功能</span>
 				</navigator>
 			</li>
 		</ul>
@@ -133,6 +127,7 @@
 	.home-grid {
 		overflow: hidden;
 		background-color: #fff;
+		margin-bottom: 10px;
 		li {
 			float: left;
 			width: 33.33%;
