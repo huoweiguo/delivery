@@ -121,6 +121,34 @@
             "style" : {
 				"navigationBarTitleText": "商户详情"
 			}
+        },
+		{
+            "path" : "pages/commission/commission",
+            "style" : {
+				"navigationBarTitleText": "销配佣金",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text":"佣金类型",
+								"fontSize":"16px"
+							}
+						]
+					}
+				}
+			}
+        },
+		{
+            "path" : "pages/myIncome/myIncome",
+            "style" : {
+				"navigationBarTitleText": "我的收入"
+			}
+        },
+		{
+            "path" : "pages/scoreDet/scoreDet",
+            "style" : {
+				"navigationBarTitleText": "积分明细"
+			}
         }
     ],
 	"globalStyle": {

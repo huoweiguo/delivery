@@ -94,11 +94,10 @@
 			return {
 				times: 5,
 				showAdv: true,
-				overTimes: false
+				overTimes: true
 			}
 		},
 		mounted() {
-			console.log('timers')
 			this.timer = setInterval(_ => {
 				this.times--
 				if (this.times <= 0) {
