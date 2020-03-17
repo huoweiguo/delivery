@@ -191,12 +191,6 @@
 			}
         },
 		{
-            "path" : "pages/putCar/putCar",
-            "style" : {
-				"navigationBarTitleText": "撞撞撞撞"
-			}
-        },
-		{
 		    "path" : "pages/merchant/merchant",
 		    "style" : {
 				"navigationBarTitleText": "商户列表"
