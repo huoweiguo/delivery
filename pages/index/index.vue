@@ -69,6 +69,12 @@
 					<span class="text">更多功能</span>
 				</navigator>
 			</li>
+			<li>
+				<navigator url="/pages/install/install">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">装车</span>
+				</navigator>
+			</li>
 		</ul>
 		<div class="home-mask" v-if="showAdv">
 			<div class="adv-content">
