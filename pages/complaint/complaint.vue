@@ -28,7 +28,7 @@
 						<view><text>投诉日期：</text><text>2020-02-21</text></view>
 						<view><text>投诉类型：</text><text class="small-txt">配送问题</text></view>
 						<view><text>订单商品：</text><text>鸡蛋 大</text></view>
-						<view><text>剩余处理时间：</text><text class="fcred">3天20小时52分钟</text></view>
+						<view><text>处理状态：</text><text class="fcred">超时未确认</text></view>
 						<view class="comp-btn-set">
 							<button @click="showText" data-text="质量问题">投诉详情</button>
 							<button>申诉详情</button>
@@ -57,7 +57,6 @@
 		data() {
 			return {
 				activeTab: 0,
-				mescroll: null,
 				nav1: '待处理',
 				nav2: '处理中',
 				nav3: '已完结'

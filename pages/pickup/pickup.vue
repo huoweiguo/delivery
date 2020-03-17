@@ -37,6 +37,7 @@
 				<div class="nav-smallText">20200216 晨鲜送 2波次</div>
 				<ul class="pickup-list pickup-complete">
 					<li>
+						<image class="icon-complete" src="/static/images/icon-complete.png"></image>
 						<div class="tag-fixed"><text>取</text></div>
 						<div class="pckText1">任务单号: RD128262783932</div>
 						<div class="pckText1">取件号: Q12783932</div>
@@ -67,6 +68,7 @@
 				<div class="nav-smallText">20200216 晨鲜送 2波次</div>
 				<ul class="pickup-list pickup-complete">
 					<li>
+						<image class="icon-complete" src="/static/images/icon-complete.png"></image>
 						<div class="tag-fixed"><text>取</text></div>
 						<div class="pckText1">任务单号：RD128262783932</div>
 						<div class="pckText1">取件号：Q12783932</div>
@@ -237,10 +239,14 @@
 	}
 	.pickup-complete {
 		li {
-			background-image:url('/static/images/icon-complete.png');
-			background-position: calc(100% - 10%) calc(100% - 10%);
-			background-repeat: no-repeat;
-			background-size: 120px;
+			position: relative;
+			.icon-complete {
+				position: absolute;
+				right: 20px;
+				bottom: 20px;
+				width: 120px;
+				height: 120px;
+			}
 		}
 	}
 	.pickup-detail {

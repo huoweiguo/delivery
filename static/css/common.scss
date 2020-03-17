@@ -94,3 +94,36 @@ body {
 	font-size: 12px;
 	margin-right: 10px;
 }
+.tright {
+	text-align: right;
+}
+.fcblack {
+	color: #333;
+}
+.fb {
+	font-weight: bold;
+}
+.popup-box {
+	margin: 0 10px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+	.popup-promt {
+		display: block;
+		height: 35px;
+		border-bottom: 1px solid #f1f1f1;
+		line-height: 35px;
+		font-size: 14px;
+		color: #666;
+	}
+	.popup-btn {
+		height: 55px;
+		line-height: 55px;
+		font-size: 16px;
+		border-bottom: 1px solid #f1f1f1;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}
