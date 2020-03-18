@@ -89,22 +89,6 @@
             }
         },
         {
-            "path":"pages/pickup/pickup",
-            "style":{
-                "navigationBarTitleText":"上门取件",
-                "app-plus":{
-                    "titleNView":{
-                        "buttons":[
-                            {
-                                "text":"更多",
-                                "fontSize":"16px"
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        {
             "path":"pages/finance/finance",
             "style":{
                 "navigationBarTitleText":"财务交款"
@@ -235,6 +219,22 @@
             "style":{
                 "navigationBarTitleText":"更多功能"
             }
+        },
+		{
+            "path" : "pages/deliveryMerchant/deliveryMerchant",
+            "style" : {
+				"navigationBarTitleText":"配送商户",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text":"地图模式",
+								"fontSize":"16px"
+							}
+						]
+					}
+				}
+			}
         }
     ],
     "globalStyle":{
