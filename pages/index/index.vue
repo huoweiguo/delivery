@@ -82,7 +82,7 @@
 				</navigator>
 			</li>
 			<li>
-				<navigator url="/pages/login/login">
+				<navigator url="/pages/register/register">
 					<image src="/static/images/icon-sign.png" mode="widthFix"/>
 					<span class="text">注册</span>
 				</navigator>
