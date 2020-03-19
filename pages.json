@@ -95,18 +95,6 @@
             }
         },
         {
-            "path":"pages/complaint/complaint",
-            "style":{
-                "navigationBarTitleText":"投诉处理"
-            }
-        },
-        {
-            "path":"pages/merchant/merchant",
-            "style":{
-                "navigationBarTitleText":"商户列表"
-            }
-        },
-        {
             "path":"pages/merchantDetail/merchantDetail",
             "style":{
                 "navigationBarTitleText":"商户详情"
@@ -163,12 +151,6 @@
 			}
         },
 		{
-            "path" : "pages/finance/finance",
-            "style" : {
-				"navigationBarTitleText": "财务交款"
-			}
-        },
-		{
             "path" : "pages/complaint/complaint",
             "style" : {
 				"navigationBarTitleText": "投诉处理"
@@ -180,40 +162,6 @@
 				"navigationBarTitleText": "商户列表"
 			}
 		},
-		{
-            "path" : "pages/merchantDetail/merchantDetail",
-            "style" : {
-				"navigationBarTitleText": "商户详情"
-			}
-        },
-		{
-            "path" : "pages/commission/commission",
-            "style" : {
-				"navigationBarTitleText": "销配佣金",
-				"app-plus": {
-					"titleNView": {
-						"buttons": [
-							{
-								"text":"佣金类型",
-								"fontSize":"16px"
-							}
-						]
-					}
-				}
-			}
-        },
-		{
-            "path" : "pages/myIncome/myIncome",
-            "style" : {
-				"navigationBarTitleText": "我的收入"
-			}
-        },
-		{
-            "path" : "pages/scoreDet/scoreDet",
-            "style" : {
-				"navigationBarTitleText": "积分明细"
-			}
-        },
         {
             "path":"pages/more/more",
             "style":{
