@@ -2,36 +2,25 @@
 	<view class="pages-content">
 		<div class="login-form">
 			<div class="login-tel">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
-				<i>请输入您的手机号码</i>
-				<input
-					type="text"
-					className="js-verify"
-				  />
+				<img src="/static/images/icon-person.png" class="icon-label"/>
+				<input type="text" className="js-verify" placeholder="请输入您的手机号码"/>
 			</div>
 			<div class="login-tel">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
-				<i>请输入您的验证码</i>
-				<input
-					type="text"
-					className="js-verify"
-				  />
-				  <button>发送验证码</button>
+				<img src="/static/images/icon-lock.png" class="icon-label"/>
+				<input type="text" className="js-verify" placeholder="请输入您的验证码"/>
+				<view class="login-pulish">发送验证码</view>
 			</div>
 			<div class="login-tel">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
-				<i>请重新设定新密码</i>
-				<input
-					type="text"
-					className="js-verify"
-				  />
+				<img src="/static/images/icon-lock.png" class="icon-label"/>
+				<input type="password" className="js-verify" placeholder="请设置新密码"/>
 			</div>
-			<div class="login-but">
-				<button>注册</button>	
-			</div>
+			
+			<button class="login-but">注册</button>
 			<div class="login-protocol">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
-				我同意美鲜送<span><用户协议></span><span><隐私协议></span>
+				<checkbox value="cb" checked="true" color="#4a9ff8" style="transform:scale(0.7)" />
+				我同意美鲜送
+				<navigator class="fcblue">《用户协议》</navigator>
+				<navigator class="fcblue">《隐私协议》</navigator>
 			</div>
 		</div>
 	</view>
@@ -53,78 +42,55 @@
 <style lang="scss" scoped>
 .login-form{
 	background-color: #fff;
-	padding-top: 20px;
+	padding: 20px 10px;
 	.login-tel{
 		position: relative;
 		background: #fff;
-		border-bottom: 1px solid #e9e9e9;	
-		line-height: 59px;
-		font-size: 16px;
+		border-bottom: 1px solid #e9e9e9;
+		font-size: 14px;
 		opacity: 0.618;
-		width: 90%;
 		margin: 0 auto;
 		transition: opacity 0.3s ease;
 		padding-left: 25px;
-		&>img{
-			width: 14px;
-			height: 22px;
+		.icon-label {
 			position: absolute;
-			left: 10px;
-			top: 18px;
-		}
-		&>i{
-			 position: absolute;
-			left: 40px;
-			top: 0;
-			font-style: normal;
-			z-index: -1;
-			font-size: 16px;
-			color: #bebebe;
+			width: 18px;
+			height: 18px;
+			left: 0;
+			top: 13px;
 		}
 		&>input{
-			height: 59px;
+			height: 45px;
 			padding: 0 15px;
 			background-color: transparent;
 			border: none;
-			font-size: 16px;
+			font-size: 14px;
 		}
-		&>button{
+		.login-pulish{
 			position: absolute;
 			right: 0;
-			top:15px;
-			font-size: 16px;
-			height: 33px;
-			line-height: 33px;
-			color: #3478f6;
-			border: none;
-			border-left: 1px solid #e9e9e9;
+			top:0;
+			font-size: 14px;
+			height: 44px;
+			line-height: 44px;
+			color: #4a9ff8;
 			background-color: #fff;
 		}
 	}
 	.login-but{
-		margin: 40px 0 8px 0;
-		&>button{
-			width: 90%;
-			background-color: #3478f6;
-			border-radius: 5px;
-			color: #fff;
-			
-		}
+		margin-top: 15px;
+		height: 40px;
+		background-color: #4a9ff8;
+		border-radius: 5px;
+		color: #fff;
 	}
 	.login-protocol{
-		font-size: 16px;
+		display: flex;
+		align-items: center;
+		font-size: 13px;
 		color: #bebebe;
 		line-height: 44px;
-		width: 90%;
 		margin: 0 auto;
-		&>img{
-			width:16px;
-			height: 16px;
-			margin-right: 12px;
-		}
-		&>span{
-			color: #3478f6;
-		}
 	}
 }
 </style>
