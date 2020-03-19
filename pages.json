@@ -235,6 +235,36 @@
 					}
 				}
 			}
+        },
+		{
+            "path" : "pages/shopInfo/shopInfo",
+            "style" : {
+				 "navigationBarTitleText":"商品信息"
+			}
+        },
+		{
+            "path" : "pages/setShop/setShop",
+            "style" : {
+				"navigationBarTitleText":"商品调整"
+			}
+        },
+		{
+            "path" : "pages/infomation/infomation",
+            "style" : {
+				"navigationBarTitleText":"填写资料"
+			}
+        },
+		{
+            "path" : "pages/baseInfo/baseInfo",
+            "style" : {
+				"navigationBarTitleText":"基础信息"
+			}
+        },
+		{
+            "path" : "pages/carInfo/carInfo",
+            "style" : {
+				"navigationBarTitleText":"车辆信息"
+			}
         }
     ],
     "globalStyle":{

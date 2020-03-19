@@ -45,8 +45,10 @@
 					<text class="cen-tab-text">仓服务评价</text>
 				</li>
 				<li>
-					<image src="/static/images/icon-apply.png"/>
-					<text class="cen-tab-text">人车信息</text>
+					<navigator url="/pages/infomation/infomation">
+						<image src="/static/images/icon-apply.png"/>
+						<text class="cen-tab-text">人车信息</text>
+					</navigator>
 				</li>
 				<li>
 					<image src="/static/images/icon-ht.png"/>
