@@ -34,6 +34,18 @@
                 "navigationBarTitleText":"我的收入"
             }
         },
+		{
+		    "path":"pages/reset/reset",
+		    "style":{
+		        "navigationBarTitleText":"重置密码"
+		    }
+		},
+		{
+		    "path":"pages/login/login",
+		    "style":{
+		        "navigationBarTitleText":"注册"
+		    }
+		},
         {
             "path":"pages/return/return",
             "style":{

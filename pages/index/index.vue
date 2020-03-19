@@ -75,6 +75,18 @@
 					<span class="text">装车</span>
 				</navigator>
 			</li>
+			<li>
+				<navigator url="/pages/reset/reset">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">重置密码</span>
+				</navigator>
+			</li>
+			<li>
+				<navigator url="/pages/login/login">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">注册</span>
+				</navigator>
+			</li>
 		</ul>
 		<div class="home-mask" v-if="showAdv">
 			<div class="adv-content">
