@@ -87,6 +87,12 @@
 					<span class="text">注册</span>
 				</navigator>
 			</li>
+			<li>
+				<navigator url="/pages/login/login">
+					<image src="/static/images/icon-sign.png" mode="widthFix"/>
+					<span class="text">登录</span>
+				</navigator>
+			</li>
 		</ul>
 		<div class="home-mask" v-if="showAdv">
 			<div class="adv-content">
