@@ -225,6 +225,24 @@
             "style" : {
 				"navigationBarTitleText":"车辆信息"
 			}
+        },
+		{
+            "path" : "pages/mapMode/mapMode",
+            "style" : {
+				"navigationBarTitleText":"地图模式"
+			}
+        },
+		{
+            "path" : "pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText":"公告列表"
+			}
+        },
+		{
+            "path" : "pages/noticeDetail/noticeDetail",
+            "style" : {
+				"navigationBarTitleText":"公告详情"
+			}
         }
     ],
     "globalStyle":{

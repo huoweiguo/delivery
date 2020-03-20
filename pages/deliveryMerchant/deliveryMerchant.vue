@@ -145,7 +145,7 @@
 					text {
 						display: block;
 						margin-left: 10px;
-						.fc-orange {
+						&.fc-orange {
 							color: #e9b13f;
 						}
 					}
