@@ -1,6 +1,10 @@
 <template>
 	<view class="content">
-		<HM-dragSorts :list="list" @confirm="confirm"></HM-dragSorts>
+		<HM-dragSorts :list="list" @confirm="confirm" :visible="visible"></HM-dragSorts>
+		<view class="depart-set">
+			<button class="dep-btn1 fbcblue">保存排列</button>
+			<button class="dep-btn1">重置排列</button>
+		</view>
 	</view>
 </template>
 
@@ -47,5 +51,19 @@
 </script>
 
 <style lang="scss" scoped>
-	
+	.depart-set {
+		padding: 20px 10px;
+		display: flex;
+		justify-content: space-between;
+		.dep-btn1 {
+			width: 45%;
+			height: 35px;
+			background-color: #f60;
+			color: #fff;
+			font-size: 14px;
+		}
+		.fbcblue {
+			background-color: #4a9ff8;
+		}
+	}
 </style>
