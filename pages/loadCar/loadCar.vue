@@ -7,12 +7,12 @@
 			<div class="trilateral"><i>直</i></span></div>
 			<div class="install-name"><text>线路名 :六安站</text></div>
 			<div class="install-name install-down"><text>任务单号:六安站</text></div>
-			<div class="install-start">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
+			<div class="install-start mb10">
+				<text class="icon-word">始</text>
 				<span>苏州仓库</span>
 			</div>
 			<div class="install-start">
-				<img src="/static/images/icon-sign.png" mode="widthFix"/>
+				<image src="/static/images/icon-clock-blue.png"/>
 				<span>三点前到达商店</span>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 	 text-align: center;
 	 margin-top: 12px;
 	 line-height: 34px;
-	 &>text{
+	 text{
 		 margin-right: 7px;
 	 }
  }
@@ -49,7 +49,7 @@
 	 width: 93%;
 	 margin: 0 auto;
 	 font-size: 16px;
-	 padding-top: 3px;
+	 padding: 10px 0;
 	 .trilateral{
 	 	width: 0px;
 	 	height:0px;
@@ -62,7 +62,7 @@
 	 	position: absolute;
 	 	left: 0;
 	 	top:0;
-	 	>i{
+	 	i{
 	 		position: absolute;
 	 		top:-15px;
 	 		right:1px;
@@ -76,11 +76,20 @@
 		 margin-bottom: 10px;
 	 }
 	 .install-start{
+		 display: flex;
+		 align-items: center;
 		 line-height: 22px;
 		 margin-left: 36px;
-		 &>img{
-			 width: 18px;
-			 height: 18;
+		 .icon-word {
+			 padding: 3px;
+			 background-color: #4a9ff8;
+			 color: #fff;
+			 font-size: 14px;
+			 display: inline-block;
+		 }
+		 image{
+			 width: 26px;
+			 height: 26px;
 			 margin-right: 10px;
 		 }
 	 }

@@ -71,7 +71,7 @@
             }
         },
 		{
-			"path": "pages/install/install",
+			"path": "pages/loadCar/loadCar",
 			"style": {
 				"navigationBarTitleText": "装车"
 			}
@@ -248,6 +248,18 @@
             "path" : "pages/noticeDetail/noticeDetail",
             "style" : {
 				"navigationBarTitleText":"公告详情"
+			}
+        },
+		{
+            "path" : "pages/receivables/receivables",
+            "style" : {
+				"navigationBarTitleText":"收款"
+			}
+        },
+		{
+            "path" : "pages/cargoCenter/cargoCenter",
+            "style" : {
+				"navigationBarTitleText":"核货列表"
 			}
         }
     ],

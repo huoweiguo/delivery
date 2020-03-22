@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<view class="depart-promt">按住列表中右侧按钮拖动，改变发车顺序</view>
 		<HM-dragSorts :list="list" @confirm="confirm" :visible="visible"></HM-dragSorts>
 		<view class="depart-set">
 			<button class="dep-btn1 fbcblue">保存排列</button>
@@ -44,13 +45,20 @@
 		methods: {
 			confirm(e) {
 				console.log("e: " + JSON.stringify(e));
-				//由上面的打印，显而易见，e里面的list，就是返回来的排序过的数据
 			}
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
+	.depart-promt {
+		padding: 3px 10px;
+		background-color:#fefcc0;
+		color:#f60;
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
 	.depart-set {
 		padding: 20px 10px;
 		display: flex;

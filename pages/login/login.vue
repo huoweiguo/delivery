@@ -1,7 +1,7 @@
 <template>
 	<view class="pages-content">
 		<div class="login-logo">
-			<img src="/static/images/dm-addr.png" class="icon-label"/>
+			小鸟CMS
 		</div>
 		<div class="login">
 			<s-tabs :effect="true" v-model="activeTab" customClass="tabs-header"   lineColor="#4aa0f7" activeColor="#4aa0f7" :nav-per-view="2">
@@ -10,13 +10,11 @@
 						<img src="/static/images/icon-person.png" class="icon-label"/>
 						<input type="text" className="js-verify" placeholder="请输入您的手机号码"/>
 					</div>
-					<div class="login-tel">
+					<div class="login-tel mb20">
 						<img src="/static/images/icon-lock.png" class="icon-label"/>
 						<input type="password" className="js-verify" placeholder="请输入密码"/>
 					</div>
-					<div class="but">
-						<button type="primary">登录</button>
-					</div>
+					<button class="but">登录</button>
 				    <div class="login-reg">
 						<navigator >用户注册</navigator>
 						<navigator class="login-pass">忘记密码</navigator>
@@ -27,14 +25,12 @@
 						<img src="/static/images/icon-person.png" class="icon-label"/>
 						<input type="text" className="js-verify" placeholder="请输入您的手机号码"/>
 					</div>
-					<div class="login-tel">
+					<div class="login-tel mb20">
 						<img src="/static/images/icon-lock.png" class="icon-label"/>
 						<input type="password" className="js-verify" placeholder="请输入验证码"/>
 						<view class="login-pulish">获取验证码</view>
 					</div>
-					<div class="but">
-						<button type="primary">登录</button>
-					</div>
+					<button class="but">登录</button>
 					<div class="login-reg">
 						<navigator >用户注册</navigator>
 						<navigator class="login-pass">忘记密码</navigator>
@@ -65,17 +61,15 @@
 </script>
 
 <style lang="scss" scoped>
+.pages-content {
+	padding: 30px 10px;
+}
 .login-logo{
-	margin: 60px auto 0;
-	width: 84px;
-	height: 114px;
-	&>img{
-		width: 84px;
-		height: 114px;
-	}
+	font-size: 28px;
+	color: #4a9ff8;
+	text-align: center;
 }
 .login{
-	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
 	.login-tel{
@@ -114,7 +108,10 @@
 		}
 	}
 	.but{
-		margin-top: 22px;
+		background-color: #4a9ff8;
+		color: #fff;
+		font-size: 16px;
+		border-radius: 0;
 	}
 	.login-reg{
 		font-size: 14px;

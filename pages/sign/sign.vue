@@ -12,19 +12,19 @@
 					<h2>昆市中</h2>
 					<ul class="sion-odd">
 						<li>
-							<img src="/static/images/icon-sign.png" mode="widthFix"/>
+							<image src="/static/images/icon-file.png"/>
 							<span>任务单号：<i>115415154</i></span>
 						</li>
 						<li>
-							<img src="/static/images/icon-sign.png" mode="widthFix"/>
+							<image src="/static/images/car-info.png"/>
 							<span>取件数量：<i>7</i></span>
 						</li>
 						<li>
-							<img src="/static/images/icon-sign.png" mode="widthFix"/>
+							<image src="/static/images/icon-clock.png"/>
 							<span>到仓时间：<i>3：00</i></span>
 						</li>
 						<li>
-							<img src="/static/images/icon-sign.png" mode="widthFix"/>
+							<image src="/static/images/icon-ck.png"/>
 							<span>所属仓库：<i>苏州仓库</i></span>
 						</li>
 					</ul>
@@ -55,15 +55,15 @@
 	.sion-list{
 		overflow: hidden;
 		background-color: #f4f4f4;
-		>li{
+		li{
 			margin: 11px 0 0 15px;	
 			.sion-text{
 				font-size: 14px;
 				color: #9b9b9b;
-				>span{
-					line-height: 34px;
-					margin-right: 13px;
-					}
+				span{
+				line-height: 34px;
+				margin-right: 13px;
+				}
 			}
 			.sion-order{
 				width: 94%;
@@ -83,7 +83,7 @@
 					position: absolute;
 					right: 0;
 					top:0;
-					>i{
+					i{
 						position: absolute;
 						bottom:0;
 						left:0;
@@ -95,17 +95,19 @@
 					font-weight:bold;
 				}
 				.sion-odd{
-					>li{
-						>img{
-							width: 11px;
-							height: 12px;
+					li{
+						display: flex;
+						align-content: center;
+						image{
+							width: 18px;
+							height: 18px;
 						}
-						>span{
+						span{
 							line-height: 13px;
 							margin-left: 7px;
 							font-size: 14px;
 							color: #adadad;
-							>i{
+							i{
 								display: inline-block;
 								color: #666666;
 							}

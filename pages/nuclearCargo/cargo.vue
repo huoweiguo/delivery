@@ -8,25 +8,22 @@
 		<div class="cargo-list">
 			<ul>
 				<li>
-					<text class="cargo-li-id">FA-FA021</text>
-					<view>
-						<text>分拣:</text><text class="fcred mr10">100%</text>
-						<text>核货:</text><text class="fcred">100%</text>
-					</view>
+					<navigator url="/pages/cargoCenter/cargoCenter"> 
+						<text class="cargo-li-id">FA-FA021</text>
+						<view>
+							<text>分拣:</text><text class="fcred mr10">100%</text>
+							<text>核货:</text><text class="fcred">100%</text>
+						</view>
+					</navigator>
 				</li>
 				<li>
-					<text class="cargo-li-id">FA-FA021</text>
-					<view>
-						<text>分拣:</text><text class="fcred mr10">100%</text>
-						<text>核货:</text><text class="fcred">100%</text>
-					</view>
-				</li>
-				<li>
-					<text class="cargo-li-id">FA-FA021</text>
-					<view>
-						<text>分拣:</text><text class="fcred mr10">100%</text>
-						<text>核货:</text><text class="fcred">100%</text>
-					</view>
+					<navigator url="/pages/cargoCenter/cargoCenter">
+						<text class="cargo-li-id">FA-FA021</text>
+						<view>
+							<text>分拣:</text><text class="fcred mr10">100%</text>
+							<text>核货:</text><text class="fcred">100%</text>
+						</view>
+					</navigator>
 				</li>
 			</ul>
 		</div>
@@ -60,13 +57,15 @@
 		padding: 0 10px;
 		background-color: #fff;
 		li{
-			display: flex;
 			border-bottom:1px solid #f1f1f1;
 			font-size: 14px;
-			justify-content: space-between;
 			height: 45px;
 			line-height: 45px;
 			color: #333;
+			navigator {
+				display: flex;
+				justify-content: space-between;
+			}
 		}
 	}
 	.cargo-btn {

@@ -70,7 +70,7 @@
 				</navigator>
 			</li>
 			<li>
-				<navigator url="/pages/install/install">
+				<navigator url="/pages/loadCar/loadCar">
 					<image src="/static/images/icon-sign.png" mode="widthFix"/>
 					<span class="text">装车</span>
 				</navigator>

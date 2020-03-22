@@ -48,7 +48,7 @@
 							<image src="/static/images/dm-addr.png"/>
 							<text class="dm-addr-text fcblue">忽闪忽闪的好傻哈哈哈撒谎说还去我家啊睡觉就啊说三哈哈说</text>
 						</view>
-						<button class="dm-btn">收款</button>
+						<button class="dm-btn" @click="receivable">收款</button>
 					</li>
 				</ul>
 			</s-tab>
@@ -71,6 +71,13 @@
 				activeTab: 0,
 				nav1: '配送中(10)',
 				nav2: '已完成(2)'
+			}
+		},
+		methods: {
+			receivable () {
+				uni.navigateTo({
+					url: '/pages/receivables/receivables'
+				})
 			}
 		}
 	}
